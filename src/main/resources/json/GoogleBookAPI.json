@@ -1,0 +1,459 @@
+{
+	"kind": "books#volumes",
+	"totalItems": 317,
+	"items": [{
+			"kind": "books#volume",
+			"id": "JLz3UxATtlEC",
+			"etag": "m/E0QgR+Yc0",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/JLz3UxATtlEC",
+			"volumeInfo": {
+				"title": "Programação Java para Wireless",
+				"authors": [
+					"Érico Tavares de Mattos"
+				],
+				"publisher": "Universo dos Livros Editora",
+				"description": "Atualmente, a produção de dispositivos móveis em todo o mundo já é bem superior à de PCs, o que criou um grande mercado de trabalho em potencial para desenvolvedores de sistemas para dispositivos móveis e fez que muitos programadores buscassem especializações nesse tipo de programação. Dentre as ferramentas usadas, a principal delas é o J2ME, a plataforma Java para desenvolvimento de sistemas para aparelhos portáteis, o que inclui softwares para dispositivos como celulares e pagers, passando por refrigeradores, televisores digitais e até automóveis. Neste livro, você terá acesso a essa poderosa tecnologia a partir de explicações detalhadas e exemplos práticos que propiciarão a você dar os primeiros passos nesse mercado promissor, aumentando em muito suas possibilidades de obter um bom emprego na área.",
+				"industryIdentifiers": [{
+						"type": "ISBN_13",
+						"identifier": "9788577020010"
+					}, {
+						"type": "ISBN_10",
+						"identifier": "8577020010"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"printType": "BOOK",
+				"categories": [
+					"Computers"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "preview-1.0.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=JLz3UxATtlEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=JLz3UxATtlEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "pt",
+				"previewLink": "http://books.google.com.br/books?id=JLz3UxATtlEC&pg=PA32&dq=Java&hl=&as_brr=5&as_pt=BOOKS&cd=1&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=JLz3UxATtlEC&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=JLz3UxATtlEC"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 14.9,
+					"currencyCode": "BRL"
+				},
+				"retailPrice": {
+					"amount": 14.9,
+					"currencyCode": "BRL"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=JLz3UxATtlEC&rdid=book-JLz3UxATtlEC&rdot=1&source=gbs_api",
+				"offers": [{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 1.49E7,
+							"currencyCode": "BRL"
+						},
+						"retailPrice": {
+							"amountInMicros": 1.49E7,
+							"currencyCode": "BRL"
+						},
+						"giftable": true
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "PARTIAL",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Programa%C3%A7%C3%A3o_Java_para_Wireless-sample-pdf.acsm?id=JLz3UxATtlEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=JLz3UxATtlEC&hl=&as_brr=5&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "\u003cb\u003ejava\u003c/b\u003e.io.InputStreamReader \u003cb\u003ejava\u003c/b\u003e.io.OutputStreamWriter Classes de calendário e \u003cbr\u003e\nhora \u003cb\u003ejava\u003c/b\u003e.util.Calendar \u003cb\u003ejava\u003c/b\u003e.util.Date \u003cb\u003ejava\u003c/b\u003e.util.TimeZone Classes utilitárias \u003cb\u003ejava\u003c/b\u003e.\u003cbr\u003e\nlang.Math \u003cb\u003ejava\u003c/b\u003e.util.Random Classes de exceção (“Exception”) \u003cb\u003ejava\u003c/b\u003e.io."
+			}
+		}, {
+			"kind": "books#volume",
+			"id": "yIhcDwAAQBAJ",
+			"etag": "zss6HO/SmAs",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/yIhcDwAAQBAJ",
+			"volumeInfo": {
+				"title": "Java Start",
+				"authors": [
+					"André Campos",
+					"Artur Campos"
+				],
+				"publisher": "Editora Digitaliza",
+				"publishedDate": "2018-05-22",
+				"description": "O livro nasceu do seguinte paradoxo: Java é supostamente difícil de aprender mas é uma das linguagens mais utilizadas e requisitadas pelo mercado. Por isso, o objetivo do livro é ajudar o leitor a aprender a linguagem de maneira simples, fácil e fluída. Nada de infindáveis e complexas explicações técnicas. É direto ao ponto. Mas de forma didática. Outra importante característica deste livro é que ele é acessível. Primeiro, porque qualquer pessoa que quiser obter um exemplar, poderá fazê-lo sem dúvida. Segundo, porque a linguagem utilizada é simples, clara e amigável. Ainda, a obra é recheada de exemplos de código, tabelas e figuras que ajudam na compreensão dos conceitos e da linguagem.",
+				"industryIdentifiers": [{
+						"type": "ISBN_13",
+						"identifier": "9788545563013"
+					}, {
+						"type": "ISBN_10",
+						"identifier": "8545563019"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 212,
+				"printType": "BOOK",
+				"categories": [
+					"Computers"
+				],
+				"averageRating": 5.0,
+				"ratingsCount": 1,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.1.1.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=yIhcDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=yIhcDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "pt",
+				"previewLink": "http://books.google.com.br/books?id=yIhcDwAAQBAJ&printsec=frontcover&dq=Java&hl=&as_brr=5&as_pt=BOOKS&cd=2&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=yIhcDwAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=yIhcDwAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 0.0,
+					"currencyCode": "BRL"
+				},
+				"retailPrice": {
+					"amount": 0.0,
+					"currencyCode": "BRL"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=yIhcDwAAQBAJ&rdid=book-yIhcDwAAQBAJ&rdot=1&source=gbs_api"
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "ALL_PAGES",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Java_Start-sample-epub.acsm?id=yIhcDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Java_Start-sample-pdf.acsm?id=yIhcDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=yIhcDwAAQBAJ&hl=&as_brr=5&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "O livro nasceu do seguinte paradoxo: Java é supostamente difícil de aprender mas é uma das linguagens mais utilizadas e requisitadas pelo mercado."
+			}
+		}, {
+			"kind": "books#volume",
+			"id": "QjfF0RKIRO0C",
+			"etag": "H3JQMaDiVm0",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/QjfF0RKIRO0C",
+			"volumeInfo": {
+				"title": "Treinamento Profissional em Java",
+				"authors": [
+					"Guilherme Somera"
+				],
+				"publisher": "Universo dos Livros Editora",
+				"description": "Aprenda a programar nesta poderosa linguagem! De alguns anos para cá, o Java se consolidou como a linguagem mais usada por programadores e grandes corporações em todo o mundo. Essa demanda veio acompanhada de aumento no grau de exigência para o profissional, que precisa ter alto nível de conhecimento, ser extremamente capacitado e possuir experiência e sólidos conhecimentos na linguagem. Neste livro, o leitor terá acesso aos principais recursos desta linguagem para que se torne um programador experiente em Java. Entre os tópicos abordados no livro estão; Técnicas de Orientação a objetos; Uso de Classes, Objetos e Interfaces; Manipulação dos principais tipos de dados; Tratamento de exceções; Polimorfismo e herança; Uso das principais APIs; Manipulação de arquivos; Desenvolvimento de aplicações gráficas; Criação de Applets; Desenvolvimento de aplicações distribuídas; Aplicações TCP/IP em Java; Uso de múltiplas threads; Aplicações UDP e http; Codificação e decodificação de dados; Bancos de dados em Java; Comandos SQL; Conexão com banco de dados; Execução da consultas; E muito mais.",
+				"industryIdentifiers": [{
+						"type": "ISBN_13",
+						"identifier": "9788577020768"
+					}, {
+						"type": "ISBN_10",
+						"identifier": "8577020762"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 128,
+				"printType": "BOOK",
+				"categories": [
+					"Computers"
+				],
+				"averageRating": 1.0,
+				"ratingsCount": 1,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "preview-1.0.0",
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=QjfF0RKIRO0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=QjfF0RKIRO0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "pt",
+				"previewLink": "http://books.google.com.br/books?id=QjfF0RKIRO0C&printsec=frontcover&dq=Java&hl=&as_brr=5&as_pt=BOOKS&cd=3&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=QjfF0RKIRO0C&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=QjfF0RKIRO0C"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 19.95,
+					"currencyCode": "BRL"
+				},
+				"retailPrice": {
+					"amount": 19.95,
+					"currencyCode": "BRL"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=QjfF0RKIRO0C&rdid=book-QjfF0RKIRO0C&rdot=1&source=gbs_api",
+				"offers": [{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 1.995E7,
+							"currencyCode": "BRL"
+						},
+						"retailPrice": {
+							"amountInMicros": 1.995E7,
+							"currencyCode": "BRL"
+						},
+						"giftable": true
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "PARTIAL",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Treinamento_Profissional_em_Java-sample-pdf.acsm?id=QjfF0RKIRO0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=QjfF0RKIRO0C&hl=&as_brr=5&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Aprenda a programar nesta poderosa linguagem!"
+			}
+		}, {
+			"kind": "books#volume",
+			"id": "MMeSDwAAQBAJ",
+			"etag": "jbjGGChhQ2A",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/MMeSDwAAQBAJ",
+			"volumeInfo": {
+				"title": "Java Efetivo",
+				"subtitle": "3a edição",
+				"authors": [
+					"Joshua Bloch"
+				],
+				"publisher": "Alta Books Editora",
+				"publishedDate": "2019-04-09",
+				"description": "O guia definitivo das melhores práticas da plataforma Java. Atualizado com o Java 9. Como nas edições anteriores, cada capítulo do Java Efetivo, Terceira Edição é composto de inúmeros \"itens\", cada qual apresentado no formato de um ensaio independente e curto que oferece recomendações específicas, traz informações a respeito das sutilezas da plataforma Java, e exemplos de códigos atualizados. As descrições e explicações completas de cada item esclarecem o que fazer, o que não fazer e o por quê. A terceira edição aborda os recursos da linguagem e das bibliotecas introduzidos no Java, 7, 8 e 9, como as construções de programação funcional, adicionadas às raizes da programação orientado a objetos. Adicionou-se muitos itens novos também, incluindo o capítulo dedicado aos lambdas e às streams. A edição nova inclui: - Interfaces funcionais, expressões lambadas, referências para método, e streams; - Métodos estáticos e padrões para interfaces; - Inferência de tipo, incluindo o operador para os tipos genéricos; - Anotação @SafeVarargs; - Instruções try-with-resources; - Recursos das bibliotecas novas, como a interface OptionalT , a java.time, e a facilidade dos métodos de fabricação para as coleções.",
+				"industryIdentifiers": [{
+						"type": "ISBN_13",
+						"identifier": "9788550808338"
+					}, {
+						"type": "ISBN_10",
+						"identifier": "8550808334"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 432,
+				"printType": "BOOK",
+				"categories": [
+					"Computers"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "0.0.1.0.preview.1",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=MMeSDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=MMeSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "pt",
+				"previewLink": "http://books.google.com.br/books?id=MMeSDwAAQBAJ&pg=PA3&dq=Java&hl=&as_brr=5&as_pt=BOOKS&cd=4&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=MMeSDwAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=MMeSDwAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 71.92,
+					"currencyCode": "BRL"
+				},
+				"retailPrice": {
+					"amount": 71.92,
+					"currencyCode": "BRL"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=MMeSDwAAQBAJ&rdid=book-MMeSDwAAQBAJ&rdot=1&source=gbs_api",
+				"offers": [{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 7.192E7,
+							"currencyCode": "BRL"
+						},
+						"retailPrice": {
+							"amountInMicros": 7.192E7,
+							"currencyCode": "BRL"
+						},
+						"giftable": true
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Java_Efetivo-sample-pdf.acsm?id=MMeSDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=MMeSDwAAQBAJ&hl=&as_brr=5&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Parece incrível, porém, a minha máquina é antiga, montada em casa com um \u003cbr\u003e\nprocessador de quatro núcleos Intel Core i7-4770K de 3,5 GHz, de 16 gigabytes \u003cbr\u003e\nde DDR3-1866 CL9 RAM, e executa a versão 9.0.0.15 do Open \u003cb\u003eJava\u003c/b\u003e SE&nbsp;..."
+			}
+		}, {
+			"kind": "books#volume",
+			"id": "N02bBAAAQBAJ",
+			"etag": "6heDlX3UXmY",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/N02bBAAAQBAJ",
+			"volumeInfo": {
+				"title": "Java Para Leigos",
+				"subtitle": "",
+				"authors": [
+					"Burd, Barry "
+				],
+				"publisher": "Alta Books Editora",
+				"publishedDate": "2014-03-20",
+				"description": "Escrito por uma das maiores referências da programação, Barry Burd, o Java Para Leigos, Tradução da 5ª Edição, traz informações atualizadas sobre linguagens de programação, o básico da programação orientada a objetos, direcionamentos de como criar aplicativos utilizando o JDK7, reutilizar códigos e mais! Este livro é dedicado para programadores inciantes e experientes e, até mesmo, pessoas curiosas que querem entender um pouco mais a respeito do tema. Segue o padrão da Para Leigos, com linguagem de fácil acesso e explicações passo a passo para que programar se torne uma atividade fácil e divertida!",
+				"industryIdentifiers": [{
+						"type": "ISBN_13",
+						"identifier": "9788576088011"
+					}, {
+						"type": "ISBN_10",
+						"identifier": "8576088010"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": true
+				},
+				"pageCount": 424,
+				"printType": "BOOK",
+				"categories": [
+					"Computers"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "preview-1.0.0",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=N02bBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=N02bBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "pt",
+				"previewLink": "http://books.google.com.br/books?id=N02bBAAAQBAJ&pg=PA32&dq=Java&hl=&as_brr=5&as_pt=BOOKS&cd=5&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=N02bBAAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=N02bBAAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "BR",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 52.43,
+					"currencyCode": "BRL"
+				},
+				"retailPrice": {
+					"amount": 52.43,
+					"currencyCode": "BRL"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=N02bBAAAQBAJ&rdid=book-N02bBAAAQBAJ&rdot=1&source=gbs_api",
+				"offers": [{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 5.243E7,
+							"currencyCode": "BRL"
+						},
+						"retailPrice": {
+							"amountInMicros": 5.243E7,
+							"currencyCode": "BRL"
+						},
+						"giftable": true
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "BR",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.com.br/books/download/Java_Para_Leigos-sample-pdf.acsm?id=N02bBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=N02bBAAAQBAJ&hl=&as_brr=5&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Se revirarmos a internet em busca de ferramentas \u003cb\u003eJava\u003c/b\u003e, encontraremos coisas \u003cbr\u003e\ncom todos os tipos de nomes: Kit de Desenvolvimento \u003cb\u003eJava\u003c/b\u003e, Kit de \u003cbr\u003e\nDesenvolvimento de Software, Ambiente de Tempo de Execução \u003cb\u003eJava\u003c/b\u003e e outros \u003cbr\u003e\nnomes&nbsp;..."
+			}
+		}
+	]
+}
