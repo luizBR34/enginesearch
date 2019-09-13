@@ -30,7 +30,7 @@ public class BooksSearchServiceImpl implements BooksSearchService {
         	
         	GoogleBookAPI response = restTemplate.getForObject(endpointURI, GoogleBookAPI.class, term);
 
-            if (nonNull(response.getItems())) {
+            if (nonNull(response)) {
                 log.info("GoogleBookAPI:findBooks() - Successful called!");
                 return response;
             } else {
