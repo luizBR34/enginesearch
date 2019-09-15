@@ -22,8 +22,8 @@ public class SwaggerConfig {
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.luxoft.exam")) //Aqui se especifica o diretório raiz do serviço
-                .paths(regex("/enginesearch.*")) //Aqui se define a URI raiz do serviço
+                .apis(RequestHandlerSelectors.basePackage("com.luxoft.exam"))
+                .paths(regex("/enginesearch.*"))
                 .build()
                 .apiInfo(metaInfo());
     }
@@ -31,11 +31,11 @@ public class SwaggerConfig {
     private ApiInfo metaInfo() {
 
         ApiInfo apiInfo = new ApiInfo(
-                "eventoWS API REST",
-                "API Rest do serviço eventoWS",
+                "Enginesearch",
+                "Search service from Google Books and iTunes",
                 "1.0",
                 "Terms of Service",
-                new Contact("Luiz Fernando Póvoa", "https://github.com/luizBR34",
+                new Contact("Luiz Fernando Póvoa", "https://github.com/luizBR34/enginesearch",
                         "luizfer1@yahoo.com.br"),
                 "Apache License Version 2.0",
                 "https://www.apache.org/licesen.html", new ArrayList<VendorExtension>()

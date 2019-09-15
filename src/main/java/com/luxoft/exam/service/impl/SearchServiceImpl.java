@@ -2,16 +2,16 @@ package com.luxoft.exam.service.impl;
 
 import static java.util.Objects.nonNull;
 
-import com.luxoft.exam.model.AppleAlbumsAPI;
-import com.luxoft.exam.model.GoogleBookAPI;
-import com.luxoft.exam.service.SearchService;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
+
+import com.luxoft.exam.model.AppleAlbumsAPI;
+import com.luxoft.exam.model.GoogleBookAPI;
+import com.luxoft.exam.service.SearchService;
 
 @Service
 public class SearchServiceImpl implements SearchService {
@@ -24,6 +24,10 @@ public class SearchServiceImpl implements SearchService {
 	private String iTunesEndpointURI;
 	
 	
+	@Value(value = "${search.limit.result}")
+	private int limitOfResults;
+	
+
 	private final Logger log = LoggerFactory.getLogger(SearchServiceImpl.class);
 	
 	
@@ -34,7 +38,7 @@ public class SearchServiceImpl implements SearchService {
 
         try {
         	
-        	GoogleBookAPI response = restTemplate.getForObject(googleEndpointURI, GoogleBookAPI.class, term);
+        	GoogleBookAPI response = restTemplate.getForObject(googleEndpointURI, GoogleBookAPI.class, term, limitOfResults);
 
             if (nonNull(response)) {
                 log.info("SearchServiceImpl:findBooks() - Google Books API Successful called!");
@@ -54,11 +58,11 @@ public class SearchServiceImpl implements SearchService {
 	@Override
 	public AppleAlbumsAPI findAlbums(String term) throws Exception {
 
-		RestTemplate restTemplate = new RestTemplate();
-
+		RestTemplate restTemplate = createRestTemplate();
+		
         try {
         	
-        	AppleAlbumsAPI response = restTemplate.getForObject(iTunesEndpointURI, AppleAlbumsAPI.class, term);
+        	AppleAlbumsAPI response = restTemplate.getForObject(iTunesEndpointURI, AppleAlbumsAPI.class, term, limitOfResults);
 
             if (nonNull(response)) {
                 log.info("SearchServiceImpl:findAlbums() - iTunes API Successful called!");

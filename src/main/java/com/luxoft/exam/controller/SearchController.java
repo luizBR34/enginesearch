@@ -1,6 +1,8 @@
 package com.luxoft.exam.controller;
 
 
+import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -35,8 +37,15 @@ public class SearchController {
 	public @ResponseBody Iterable<ResponseItem> search(@PathVariable("term") String term) {
 		
 		log.info("SearchController:search() - Begining of request processing!");
+		
+		LocalDateTime startSearch = LocalDateTime.now();
+		
 		List<ResponseItem> response = intService.processRequest(term);
-		log.info("SearchController:search() - The processing of request was finished!");
+		
+        LocalDateTime endSearch = LocalDateTime.now();
+        Duration durationSearch = Duration.between(startSearch, endSearch);
+		
+		log.info("SearchController:search() - The request processing was finished in " + durationSearch.getSeconds() + " seconds!");
 		return response;
 	}
 
